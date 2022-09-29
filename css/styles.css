@@ -1,0 +1,166 @@
+@font-face {
+    font-family: friz-quadrata;
+    src: url(../fonts/friz-quadrata-tt.woff);
+}
+body {
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    font-family: friz-quadrata;
+}
+hr {
+    height: 1px;
+    background-color: #000000;
+    border: #000000 solid 1px;
+    margin: 5px 0 5px 0;
+}
+span.simbolo {
+    border: none;
+    font-size: 30px;
+}
+/* Painel Lateral */
+aside {
+    margin-right: 50px;
+    text-align: center;
+    height: 100vh;
+    width: 25vw;
+    background-image: url("../imagens/aside_fundo.jpg");
+    background-repeat: repeat-y;
+    border-right: 0.6vw #000000 solid;
+    box-shadow: 3px 3px 2.7px rgba(0, 0, 0, 0.5);
+    float: left;
+}
+aside img {
+    width: 180px;
+    margin-top: 25%;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+li {
+    font-size: 20px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+nav a {
+    background-image: url("../imagens/botao.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav a.atual {
+    background-image: url("../imagens/botao-atual.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+a.sobre {
+    padding: 10px 58px 12px 58px;
+}
+a.conhecimentos {
+    padding: 11px 15px 13px 15px;
+}
+a.objetivos {
+    padding: 10px 46px 12px 46px;
+}
+/* Header - Nome + Endereço*/
+header {
+    display: block;
+    margin-left: 25vw;
+    width: 74.4vw;
+    border-left: 0.6vw solid #000000;
+}
+header div {
+    position: relative;
+    top: 15vh;
+    background-color: rgba(100, 100, 100, 0.8);
+    border: 0.6vw solid #000000;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+header div span {
+    font-weight: bold;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+header div h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color:#D90000; 
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+}
+header div p {
+    font-size: 20px;
+    color:#DDDDDD; 
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    margin: 2px 0 2px 0;
+} 
+header div h2 {
+    font-size: 25px;
+    font-weight: normal;
+    color:#DDDDDD; 
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    margin: 10px 0 2px 0;
+}
+span.link {
+    color:#2758f7;
+    border-bottom: 2px #2758f7 solid;
+    letter-spacing: 1px;
+}
+/* Main - Perfil */
+main {
+    display: block;
+    margin-left: 25vw;
+    width: 74.4vw;
+    border-left: 0.6vw solid #000000;
+}
+main div {
+    position: relative;
+    top: 16vh;
+    background-color: rgba(100, 100, 100, 0.8);
+    border: 0.4vw solid #000000;
+    border-left: none;
+    border-right: none;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 15px; 
+}
+main div p {
+    font-size: 20px;
+    color:#DDDDDD; 
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    max-width: 90%;
+} 
+main div span {
+    font-weight: bold;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+/* Footer */
+footer {
+    display: block;
+    margin-left: 25vw;
+    width: 74.4vw;
+    border-left: 0.6vw solid #000000;
+}
+footer img {
+    position: relative;
+    top: 16vh;
+    width: 80px;
+    margin: 0 5px 0 5px;
+}
+/* Reset CSS Navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
