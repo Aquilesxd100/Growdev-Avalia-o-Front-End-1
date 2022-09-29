@@ -37,13 +37,13 @@ aside img {
     width: 180px;
     margin-top: 25%;
 }
-ul {
+nav ul {
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-ul li {
+nav ul li {
     font-size: 20px;
     text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
     color: #FFFFFF;
@@ -73,7 +73,7 @@ a.conhecimentos {
 a.objetivos {
     padding: 10px 46px 12px 46px;
 }
-/* Header - Nome + Endereço*/
+/* Header */
 header {
     display: block;
     margin-left: 25vw;
@@ -90,6 +90,9 @@ header div {
     padding-top: 5px;
     padding-bottom: 10px;
     margin-bottom: 5px;
+}
+header.conhecimentos div {
+    top: 8vh;
 }
 header div span {
     font-weight: bold;
@@ -120,7 +123,7 @@ span.link {
     border-bottom: 2px #2758f7 solid;
     letter-spacing: 1px;
 }
-/* Main - Perfil */
+/* Main */
 main {
     display: block;
     margin-left: 25vw;
@@ -137,6 +140,13 @@ main div {
     padding-top: 8px;
     padding-bottom: 10px;
     margin-bottom: 15px; 
+}
+main div.conhecimentos {
+    top: 9vh;
+    background-color: none;
+    border-bottom: none;
+    padding: 0;
+    background-color: rgba(100, 100, 100, 0.0);
 }
 main div p {
     font-size: 20px;
@@ -163,7 +173,27 @@ ol li {
     font-size: 20px;
     text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
     color: #FFFFFF;
-    margin-bottom: 5px;
+    border-bottom: 0.4vw solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+ol img {
+    width: 40px;
+}
+div.conhecimentos ul {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 35%;
+    list-style: none;
+    font-size: 26px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+div.conhecimentos ul li {
+    padding-bottom: 0.4vw;
 }
 /* Footer */
 footer {
@@ -177,6 +207,13 @@ footer img {
     top: 16vh;
     width: 80px;
     margin: 0 5px 0 5px;
+}
+footer.conhecimentos img {
+    top: 8vh;
+    right: 47px;
+    width: 50px;
+    margin: 0 5px 0 5px;
+    box-shadow: 3px 3px 2.7px rgba(0, 0, 0, 0.7);
 }
 /* Reset CSS Navegador */
 * {
