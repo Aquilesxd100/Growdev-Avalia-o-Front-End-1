@@ -18,6 +18,9 @@ span.simbolo {
     border: none;
     font-size: 30px;
 }
+ol {
+    list-style-type: upper-alpha;
+}
 /* Painel Lateral */
 aside {
     margin-right: 50px;
@@ -40,7 +43,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-li {
+ul li {
     font-size: 20px;
     text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
     color: #FFFFFF;
@@ -141,10 +144,26 @@ main div p {
     text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
     max-width: 90%;
 } 
+p.conhecimentos {
+    font-size: 20px;
+    color:#DDDDDD; 
+    text-indent: 40px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    max-width: 98.5%;
+}
 main div span {
     font-weight: bold;
     color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+}
+strong {
+    letter-spacing: 0.3px;
+}
+ol li {
+    font-size: 20px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    color: #FFFFFF;
+    margin-bottom: 5px;
 }
 /* Footer */
 footer {
