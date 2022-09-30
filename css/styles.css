@@ -130,7 +130,7 @@ main {
     width: 74.4vw;
     border-left: 0.6vw solid #000000;
 }
-main div {
+main div, main section {
     position: relative;
     top: 16vh;
     background-color: rgba(100, 100, 100, 0.8);
