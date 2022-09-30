@@ -130,7 +130,7 @@ main {
     width: 74.4vw;
     border-left: 0.6vw solid #000000;
 }
-main div, main section {
+main div, section {
     position: relative;
     top: 16vh;
     background-color: rgba(100, 100, 100, 0.8);
@@ -194,6 +194,38 @@ div.conhecimentos ul {
 }
 div.conhecimentos ul li {
     padding-bottom: 0.4vw;
+}
+section article {
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+}
+article h2 {
+    font-size: 23px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+section article ul {
+    padding-left: 20px;
+    font-size: 19px;
+    text-shadow: 1.9px 0 0 rgb(0, 0, 0), -1.9px 0 0 rgb(0, 0, 0), 0 1.9px 0 rgb(0, 0, 0), 0 -1.9px 0 rgb(0, 0, 0), 0.9px 0.9px rgb(0, 0, 0), -0.9px -0.9px 0 rgb(0, 0, 0), 0.9px -0.9px 0 rgb(0, 0, 0), -0.9px 0.9px 0 rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+section article ul li {
+    margin: 3px;
+}
+section hr {
+    height: 2px;
+    background-color: #FFFFFF;
+    border: #000000 solid 1px;
+    margin: 5px 0 5px 0;
+}
+hr.profissional {
+    max-width: 260px;
+}
+hr.pessoal {
+    max-width: 215px;
 }
 /* Footer */
 footer {
